@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-nano", "id": "nano", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-mpu6050", "id": "imu1", "top": 99.82, "left": -112.88, "attrs": {} }
+  ],
+  "connections": [
+    [ "imu1:SCL", "nano:A5", "green", [ "v-19.2", "h153.68" ] ],
+    [ "imu1:SDA", "nano:A4", "green", [ "v-28.8", "h153.68" ] ],
+    [ "imu1:VCC", "nano:5V", "red", [ "v0", "h163.28" ] ],
+    [ "imu1:GND", "nano:GND.1", "black", [ "v9.6", "h182.48" ] ]
+  ],
+  "dependencies": {}
+}

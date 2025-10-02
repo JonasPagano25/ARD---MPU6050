@@ -1,1 +1,5 @@
-
+[wokwi]
+rfc2217ServerPort = 4000
+version = 1
+firmware = '.pio/build/nanoatmega328/firmware.hex'
+elf = '.pio/build/nanoatmega328/firmware.elf'
